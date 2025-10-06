@@ -13,7 +13,7 @@ When full, new elements automatically overwrite the oldest (FIFO).<br>
 -Read/write by logical index: operator[](x) accesses the x-th oldest element
 -Utilities: print_logical_buffer(), print_physical_buffer()
 
-##Private data members
+## Private data members
 
 -_buffer: pointer to the array
 -_capacity: maximum capacity of the array
