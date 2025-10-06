@@ -1,6 +1,6 @@
 # Circular-buffer
 
-``cbuffer<T>`` is a data structure that implements a fixed size circular array.<br>
+`cbuffer<T>`is a data structure that implements a fixed size circular array.<br>
 When full, new elements automatically overwrite the oldest (FIFO).<br>
 
 ## Features
@@ -10,7 +10,7 @@ When full, new elements automatically overwrite the oldest (FIFO).<br>
 - Insertion/removal in O(1): add_tail(), remove_head(), remove_tail()
 - Minimal support to forward iterators
 - Ctors: default; with capacity; cctor; from generic data sequence that comes with iterator begin-end
-- Read/write by logical index: operator[](x) accesses the x-th oldest element
+- Read/write by logical index: `operator[](x)` accesses the x-th oldest element
 - Utilities: print_logical_buffer(), print_physical_buffer()
 
 ## Private data members
