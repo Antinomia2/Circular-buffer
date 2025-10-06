@@ -22,6 +22,7 @@ When full, new elements automatically overwrite the oldest (FIFO).<br>
 -_tail: index of the most recent element in the array
 
 ## Conventions
+
 -_buffer[_head] = oldest element
 -_buffer[_tail] = most recent element
 -cbuffer[0] = oldest element
