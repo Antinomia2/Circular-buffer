@@ -1,6 +1,6 @@
 # Circular-buffer
 
-cbuffer<T> is a data structure that implements a fixed size circular array.<br>
+``cbuffer<T>`` is a data structure that implements a fixed size circular array.<br>
 When full, new elements automatically overwrite the oldest (FIFO).<br>
 
 ## Features
